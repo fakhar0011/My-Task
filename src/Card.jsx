@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import img from './Images/scroll5.png';
 import "./Card.css";
 
 const Card = () => {
@@ -12,28 +13,28 @@ const Card = () => {
       </div>
       <div className="testimonial-cards">
         <div className="card-full">
-          <img src="./Image/scroll image 4.png" alt="" />
+          <img src={img} />
           <div className="card-text">
             <h4>Iphone 14 pro Max</h4>
             <p>Apple Iphone 14 pro 512GB Gold(MQ233)</p>
           </div>
         </div>
         <div className="card-full">
-          <img src="./Image/scroll image 4.png" alt="" />
+          <img src={img} />
           <div className="card-text">
             <h4>Iphone 14 pro Max</h4>
             <p>Apple Iphone 14 pro 512GB Gold(MQ233)</p>
           </div>
         </div>
         <div className="card-full">
-          <img src="./Image/scroll image 4.png" alt="" />
+          <img src={img} />
           <div className="card-text">
             <h4>Iphone 14 pro Max</h4>
             <p>Apple Iphone 14 pro 512GB Gold(MQ233)</p>
           </div>
         </div>
         <div className="card-full">
-          <img src="./Image/scroll image 4.png" alt="" />
+          <img src={img} />
           <div className="card-text">
             <h4>Iphone 14 pro Max</h4>
             <p>Apple Iphone 14 pro 512GB Gold(MQ233)</p>
